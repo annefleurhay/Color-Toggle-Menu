@@ -1,0 +1,52 @@
+body {
+  background-color: #5a5555;
+  margin: 10px;
+  padding: 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.content-dropdown ul {
+  padding: 0px;
+  opacity: 100%;
+}
+
+.content-dropdown ul li {
+  list-style-type: none;
+  margin: 3px;
+  padding: 2px;
+  width: 150px;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  padding-right: 50px;
+}
+
+.paars {
+  background-color: rgb(142, 21, 142);
+}
+
+.turqoise {
+  background-color: rgb(24, 223, 203);
+}
+
+.oranje {
+  background-color: rgb(243, 165, 9);
+}
+
+.groen {
+  background-color: rgb(30, 91, 30);
+}
+
+.content-dropdown {
+  transform: translateX(-400px);
+}
+
+.visible-content {
+  transform: translateX(400px);
+}
+
+/*# sourceMappingURL=style.css.map */
